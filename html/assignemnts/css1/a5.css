@@ -1,0 +1,49 @@
+.main {
+    height: 400px;
+    width: 400px;
+    margin: 30px auto;
+    border: 2px solid rgb(135, 167, 169);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.a {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+
+
+
+
+}
+
+.nav {
+    height: 50px;
+    width: 900px;
+    border: 2px solid rgb(135, 167, 169);
+    border-radius: 10px;
+    margin: 30px auto;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.n {
+    padding-top: 10px;
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+}

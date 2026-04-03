@@ -1,0 +1,50 @@
+/*Qs1.Add a 2s transition on box1 for width changes .It should have 'ease-in' speedcurve &0.5s delay*/
+#box1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition-duration: 5s;
+    transition: margin-left ease-in-out 2s;
+
+}
+
+#box1:hover {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+/*Qs2.Usingtransform,move box 2200 px 221 to the right & 200px down.Alsorotateit90deg.*/
+#box2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: scale(2200px);
+    transform: translate(221px, 200px);
+}
+
+/*Qs3.Usingtransform,skewbox320degalongthexaxis.
+wetechraf@gmail.com*/
+#box3 {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    transform: skew(320deg);
+}
+
+/*Qs4.Seta2pxhorizontal&2pxvertical,greenshadowforbox4,witha5pxblurradius.*/
+#box4 {
+    width: 100px;
+    height: 100px;
+    background: lightgreen;
+    box-shadow: 2px 2px 5px black;
+}
+
+/*Qs5.SetYourpictureoranypictureasthebackgroundofthediv"myPic".Also,settransparencyofthisdivto50%.*/
+#myPic {
+    width: 200px;
+    height: 200px;
+    background: pink;
+    background-image: url("mount1.jpg");
+    background-size: cover;
+}

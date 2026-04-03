@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="solid_black" style="background-color: black; color: aliceblue;">
+        student information
+        <tr>
+            <th rowspan="7">info</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+
+        </tr>
+        <tr>
+            <th>city</th>
+            <th>house</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>khi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Lhr</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Ict</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Qta</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <div>
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" />
+    </div>
+    <div>
+        Sex:
+        <lable for="male">Male</lable>
+        <input type="radio" id="gender" name="male" />
+        <lable for="female">FeMale</lable>
+        <input type="radio" id="gender" name="female" />
+    </div>
+    <div>
+        <textarea rows="5" cols="25"></textarea>
+    </div>
+    <div>
+        <input type="checkbox" id="sub" name="subs" />
+        <label for="sub">Subscribe?</label>
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <form action="/server">
+        <h1>Feedback Form</h1>
+        <div>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="enter your name" />
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="enter your email" />
+        </div>
+        <br>
+
+        <div>
+            <label for="Feedback">Message :</label>
+            <br>
+            <textarea name="Feedback" id="Feedback" rows="4" cols="20"></textarea>
+        </div>
+        <hr>
+        <hr>
+        <div>
+            Rate us out of 5:
+            <br>
+            <input type="radio" id="1" name="Rate" />
+            <label for="1"> 1</label>
+            <br>
+            <input type="radio" id="2" name="Rate" />
+            <label for="2"> 2</label>
+            <br>
+            <input type="radio" id="3" name="Rate" />
+            <label for="3"> 3</label>
+            <br>
+            <input type="radio" id="4" name="Rate" />
+            <label for="4"> 4</label>
+            <br>
+            <input type="radio" id="5" name="Rate" />
+            <label for="5">5</label>
+        </div>
+        <div>
+            <button type="submit">send your Message!</button>
+        </div>
+    </form>
+</body>
+
+</html>

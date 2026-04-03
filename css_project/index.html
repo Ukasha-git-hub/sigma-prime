@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./css_assets/logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="/css_project/css_assets/library_icon.png" alt="lib img" />
+                        <a href="#">your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box1-p1">Create your first play list</p>
+                        <p class="box2-p2">it's easy, will help you</p>
+                        <button class="badge">Create playlist </button>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box1-p1">let's find some podcast to follow</p>
+                        <p class="box2-p2">we'll keep you update on new episodes </p>
+                        <button class="badge">Beows podcast</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="stcky-nav-icons">
+                    <img src="css_assets/backward_icon.png">
+                    <img src="css_assets/forward_icon.png" class="hide">
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge nav-items hide">Explore Premium</button>
+                    <button class="badge nav-items dark-badge"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 7px;"></i> Install App</button>
+                    <i class="fa-regular fa-user nav-items"></i>
+                </div>
+
+            </div>
+
+            <h2>Recent played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./css_assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most track...</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./css_assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most track...</p>
+                </div>
+                <div class="card">
+                    <img src="./css_assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most track...</p>
+                </div>
+                <div class="card">
+                    <img src="./css_assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most track...</p>
+                </div>
+                <div class="card">
+                    <img src="./css_assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most track...</p>
+                </div>
+
+            </div>
+            <h2>Featured card</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./css_assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most track...</p>
+                </div>
+                <div class="card">
+                    <img src="./css_assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most track...</p>
+                </div>
+                <div class="card">
+                    <img src="./css_assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most track...</p>
+                </div>
+            </div>
+            <div class="nav-footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-items">
+                    <img src="./css_assets/card4img.jpeg" class="main-img">
+                    <div class="alb-text">
+                        <p style="font-size: 0.8rem; font-weight: 700; opacity: 1; margin-right:0.5rem ;">Daylight</p>
+                        <p>David kumar</p>
+
+                    </div>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="./css_assets/album.png" style="width: 20px; height: 20px;">
+
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="./css_assets/player_icon1.png" class="player-contro-icon">
+                    <img src="./css_assets/player_icon2.png" class="player-contro-icon">
+                    <img src="./css_assets/player_icon3.png" class="player-contro-icon ">
+                    <img src="./css_assets/player_icon4.png" class="player-contro-icon">
+                </div>
+                <div class="play-back-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-copy"></i>
+                <i class="fa-solid fa-volume-up"></i>
+                <input type="range" min="0" max="100" class="control-progress" step="1">
+            </div>
+        </div>
+
+
+    </div>
+</head>
+
+<body>
+
+</body>
+
+</html>
