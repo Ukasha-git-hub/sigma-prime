@@ -84,3 +84,22 @@ async function getU(country) {
         console.log("university not found", e);
     }
 }
+// same copy code just to test git branches 
+let al = document.querySelector("#list");
+function show(collArr) {
+    for (col of collArr) {
+        let li = document.createElement("li");
+        li.innerText = col.name;
+        al.appendChild(li);
+        console.log(col.name);
+    }
+}
+async function getU(country) {
+    try {
+        let res = await axios.get(uni + country);
+        return res.data;
+    }
+    catch (e) {
+        console.log("university not found", e);
+    }
+}
