@@ -22,5 +22,12 @@
 // let banana = require("./banana");
 // let fruites =[apple, banana, orange ];
 // module.exports= fruites;
-let fru = require("./fruits");
-console.log(fru);
+
+
+// let fru = require("./fruits");
+// console.log(fru);
+//////////////////////////////using import export method
+import { sum } from "./math.js";
+import { generate } from "random-words";
+console.log(generate());
+console.log(sum(184, 8448));
