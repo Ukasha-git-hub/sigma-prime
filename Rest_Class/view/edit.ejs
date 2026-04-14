@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid form</title>
+</head>
+
+<body>
+    <h2>edit your Post</h2>
+    <p> Post id: <%= post.id %>
+    </p>
+    <p> Post Name: <%= post.name %>
+    </p>
+    <form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+
+        <textarea rows="10" cols="40" name="usercontent"><%= post.usercontent %></textarea>
+        <button>Edit</button>
+
+    </form>
+</body>
+
+</html>
