@@ -39,9 +39,17 @@
                         <button>edit user</button>
                     </form>
                 </td>
+                <td>
+                    <form method="GET" action="/user/<%= res.id %>/Delete">
+                        <button>DELETE</button>
+                    </form>
+                </td>
             </tr>
             <% } %>
     </table>
+    <form method="get" action="/user/new">
+        <button>add new user</button>
+    </form>
 </body>
 
 </html>
